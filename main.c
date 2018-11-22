@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    char ciag[] = "&@";
 
-    for(int i = sizeof(ciag)-1 ; i>=0 ; i--) {
-    printf("%c", ciag[i]);
-    }
+    int i = 0;
+    char ciag[] = "Po5ejdon lubi fale";
+
+    while (ciag[++i]){}
+    printf("%d", i);
+    printf("\n \nW tym zdaniu jest cyfra ");
+
     return 0;
 }
