@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int i = 0;
-    char ciag[] = "Zesrała się bieda i piszczy";
+    char ciag[] = "&@";
 
-    while (ciag[++i]){}
-    printf("%d", i);
-
+    for(int i = sizeof(ciag)-1 ; i>=0 ; i--) {
+    printf("%c", ciag[i]);
+    }
     return 0;
 }
